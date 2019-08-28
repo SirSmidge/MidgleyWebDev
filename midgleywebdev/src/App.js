@@ -1,14 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="bgPhoto" alt="background">
+          <div id='banner'>
+            <h1>Midgley Web Development</h1>
+          </div>
+        </div>
+        <caption>Photo by Markus Spiske on Unsplash</caption>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hello world
         </p>
         <a
           className="App-link"
