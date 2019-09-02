@@ -1,0 +1,61 @@
+html {
+  width: 100%;
+  height: auto;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+#contentWrapper {
+  padding: 1%;
+  margin: auto;
+}
+
+header, section {
+  display: block;
+}
+
+a, li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.mwd-icon-bars {
+  background-image: url('./images/icons8-menu-24.png');
+  background-repeat: no-repeat;
+  display: list-item;
+  height: auto;
+  width: auto;
+}
+
+.side-nav {
+  background-image: linear-gradient(to right, #666699, #fff);
+  border-radius: 5px;
+  display: block;
+  padding: 5px;
+  width: 200px;
+  height: 100px;
+}
+
+.side-nav a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.mwd-nav-btn {
+  height: auto;
+  width: auto;
+  background-color: aqua;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 1%;
+}
+
+@media (min-width: 599px){
+  #logo{
+    display: contents;
+    align-content: center;
+  }
+}
