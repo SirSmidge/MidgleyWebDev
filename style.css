@@ -33,24 +33,44 @@ a, li {
 .side-nav {
   background-image: linear-gradient(to right, #666699, #fff);
   border-radius: 5px;
-  display: block;
-  padding: 5px;
-  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 1%;
   height: 100px;
+  width: 0;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: .7s;
 }
 
-.side-nav a {
+.mwd-li-nav a {
   color: #fff;
   text-decoration: underline;
+  margin: 2%;
+  padding: 5px;
+  display: block;
+}
+
+.mwd-li-nav a:hover {
+  color: aqua;
 }
 
 .mwd-nav-btn {
+  right: 25px;
+  position: absolute;
   height: auto;
   width: auto;
-  background-color: aqua;
-  border-radius: 15px;
+  background-image: linear-gradient(to left, #666699, #111);
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 5px;
   padding: 5px;
-  margin: 1%;
+  margin: 2%;
+  color: azure;
+}
+
+#contentBody {
+  transition: 1s;
 }
 
 @media (min-width: 599px){
