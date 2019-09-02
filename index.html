@@ -5,65 +5,67 @@
     <title>Midgley Web Development</title>
     <link rel='stylesheet' href='./style.css'>
   </head>
+
   <body>
-    <i class='mwd mwd-icon-bars' onClick='openBtn()'></i>
+    <i class='mwd mwd-icon-bars' id='burger' onClick='openBtn()'></i>
     <div id='contentWrapper'>
       <div class='side-nav' id='sideNav'>
         <button class='mwd-nav-btn' onClick='closeBtn()'>Close</button>
         <li class='mwd-li-nav'><a href=''>Projects</a></li>
         <li class='mwd-li-nav'><a href=''>Contact</a></li>
         <li class='mwd-li-nav'><a href=''>Blog</a></li>
-      </div >
+      </div>
       <section id='contentBody'>
-      <header>
-        <h1 id='logo'>Midgley Web Development</h1>
-      </header>
+        <header id='header'>
+          <h1 id='logo'>Midgley Web Development</h1>
+        </header>
         <div class='row'>
           <div class='third'>
             <div class='card cardContainer'>
               <h3 class='mwd-h3'>HTML</h3>
-              <i class='mwd mwd-icon htmlIcon'></i>
-                <div class='mwd-card-caption'>
-                  Icons made by 
-                  <a href="https://www.flaticon.com/authors/freepik"
-                  title="Freepik">Freepik</a> from
-                  <a href="https://www.flaticon.com/"
-                  title="Flaticon">www.flaticon.com</a>
-                </div>
-                <p class='mwd-card-p'>I focus on using base languages HTML, CSS, and Javascript</p>
+              <div class='mwd-icon mwd-html-icon'></div>
+              <div class='mwd-card-caption'>
+                Icons made by 
+                <a href="https://www.flaticon.com/authors/freepik"
+                title="Freepik">Freepik</a> from
+                <a href="https://www.flaticon.com/"
+                title="Flaticon">www.flaticon.com</a>
+              </div>
+              <p class='mwd-card-p'>I focus on using base languages HTML, CSS, and Javascript</p>
             </div>
           </div>
           <div class='third'>
             <div class='card cardContainer'>
               <h3 class='mwd-h3'>CSS</h3>
               <i class='fa fa-icon cssIcon'></i>
-                <div class='mwd-card-caption'>
-                  Icons made by 
-                  <a href="https://www.flaticon.com/authors/pixel-perfect"
-                  title="Pixel perfect">Pixel perfect</a> from 
-                  <a href="https://www.flaticon.com/"
-                  title="Flaticon">www.flaticon.com</a>
-                </div>
-                <p class='mwd-card-p'>This lets my build simple, responsive sites, that can run on anything.</p>
+              <div class='mwd-card-caption'>
+                Icons made by 
+                <a href="https://www.flaticon.com/authors/pixel-perfect"
+                title="Pixel perfect">Pixel perfect</a> from 
+                <a href="https://www.flaticon.com/"
+                title="Flaticon">www.flaticon.com</a>
+              </div>
+              <p class='mwd-card-p'>This lets my build simple, responsive sites, that can run on anything.</p>
             </div>
           </div>
           <div class='third'>
             <div class='card cardContainer'>
               <h3 class='mwd-h3'>Javascript</h3>
-                <i class='fa fa-icon dynamicIcon'></i>
-                <div class='mwd-card-caption'>
-                  Icons made by 
-                  <a href="https://www.flaticon.com/authors/freepik"
-                  title="Freepik">Freepik</a> from
-                  <a href="https://www.flaticon.com/"
-                  title="Flaticon">www.flaticon.com</a>
-                </div>
-                <p class='mwd-card-p'>All my sites are build mobile first. Allowing high quality control of scale and dynamic appearance.</p>
+              <i class='fa fa-icon dynamicIcon'></i>
+              <div class='mwd-card-caption'>
+                Icons made by 
+                <a href="https://www.flaticon.com/authors/freepik"
+                title="Freepik">Freepik</a> from
+                <a href="https://www.flaticon.com/"
+                title="Flaticon">www.flaticon.com</a>
+              </div>
+              <p class='mwd-card-p'>All my sites are build mobile first. Allowing high quality control of scale and dynamic appearance.</p>
             </div>
           </div>
+          <div id='parallax0' style="position:unset"></div>
           <div class='row'>
             <div id='contact'>
-
+              
             </div>
           </div>
         </div>
@@ -76,7 +78,9 @@
         <li class='mwd-li-nav'><a href=''>Contact</a></li>
         <li class='mwd-li-nav'><a href=''>Blog</a></li>
       </nav>
+      Photo by Brandon Morgan on Unsplash
     </footer>
+
     <script src='./index.js'></script>
     <script src='./server.js'></script>
   </body>

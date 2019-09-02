@@ -1,22 +1,29 @@
+/* $ ===== Start Globals =====  */
 html {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
 
 body {
-  width: 100%;
+  background-color: #666699;
+  width: 100vw;
   height: auto;
 }
 
-#contentWrapper {
+/* #contentWrapper {
   padding: 1%;
   margin: auto;
+} */
+
+#contentBody {
+  transition: 1s;
 }
 
 header, section {
   display: block;
 }
 
+/* @ ===== Start Nav ===== */
 a, li {
   text-decoration: none;
   list-style: none;
@@ -28,6 +35,7 @@ a, li {
   display: list-item;
   height: auto;
   width: auto;
+  transition: .9s;
 }
 
 .side-nav {
@@ -68,14 +76,74 @@ a, li {
   margin: 2%;
   color: azure;
 }
+/* @ ===== End Nav ===== */
 
-#contentBody {
-  transition: 1s;
+/*& ===== Start Parallax ===== */
+#parallax0 {
+  background-image: url('./images/brandon-morgan-3qucB7U2l7I-unsplash.jpg');
+  height: 100px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*& ===== End Parallax ===== */
+
+/* % ===== Start Cards ===== */
+.third {
+  padding: 5px;
 }
 
+.card {
+  background-color: #fff;
+  max-width: 300px;
+  height: 350px;
+  box-shadow: 1px 1px 1px 1px gray;
+  border-radius: 5px;
+  /* padding: 5px; */
+  margin: auto;
+}
+
+.mwd-h3 {
+  border-radius: 5px 5px 0px 0px;
+  background-color: black;
+  width: auto;
+  height: 25px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+.mwd-icon {
+  padding: 5px;
+  margin: auto;
+}
+
+.mwd-html-icon {
+  background-image: url('/images/html.png');
+}
+
+.mwd-card-p {
+  padding: 5px;
+  margin: auto;
+}
+
+.mwd-card-caption {
+  padding: 5px;
+  text-align: justify;
+  font-size: 12px;
+}
+
+/* % ===== End Cards ===== */
+/* $ ===== End Globals =====  */
+
+/* # ===== Start Media Breaks ===== */
 @media (min-width: 599px){
   #logo{
     display: contents;
     align-content: center;
   }
 }
+
+/* # ===== End Media Breaks ===== */
