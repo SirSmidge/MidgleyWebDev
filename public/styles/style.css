@@ -5,19 +5,13 @@ body {
   margin: auto;
 }
 
-/* #contentWrapper {
-  padding: 1%;
-  margin: auto;
-} */
-
 #contentBody {
   transition: 1s;
 }
 
 /* * ===== Start Logo ===== */
-.logo{
+.logo a{
   padding: 5px;
-  margin: auto;
   color: #fff;
   text-decoration: underline;
   display: table;
@@ -59,7 +53,7 @@ a, li {
 }
 
 .mwd-icon-bars {
-  background-image: url('./images/circled.png');
+  background-image: url('../images/circled.png');
   background-repeat: no-repeat;
   display: list-item;
   list-style: none;
@@ -81,7 +75,7 @@ a, li {
   margin: 1%;
   height: 14em;
   z-index: 1;
-  overflow-x: hidden;
+  overflow: hidden;
   transition: .7s;
 }
 
@@ -113,11 +107,11 @@ a, li {
 
 /*& ===== Start Parallax ===== */
 #parallax0 {
-  background-image: url('./images/brandon-morgan-3qucB7U2l7I-unsplash.jpg');
+  background-image: url('../images/brandon-morgan-3qucB7U2l7I-unsplash.jpg');
 }
 
 #parallax1 {
-  background-image: url('./images/alex-perez-pEgsWN0kwbQ-unsplash.jpg')
+  background-image: url('../images/alex-perez-pEgsWN0kwbQ-unsplash.jpg')
 }
 
 #parallax0, #parallax1 {
