@@ -1,13 +1,8 @@
 /* $ ===== Start Globals =====  */
-html {
-  width: 100vw;
-  height: auto;
-}
-
 body {
-  background-color: #666699;
-  width: 100vw;
-  height: auto;
+  background-color: #111;
+  padding: 0px;
+  margin: auto;
 }
 
 /* #contentWrapper {
@@ -19,9 +14,42 @@ body {
   transition: 1s;
 }
 
-header, section {
-  display: block;
+/* * ===== Start Logo ===== */
+.logo{
+  padding: 5px;
+  margin: auto;
+  color: #fff;
+  text-decoration: underline;
+  display: table;
 }
+/* * ===== End Logo ===== */
+
+/* $ ===== Start Footer/Nav ===== */
+.mwd-footer {
+  padding: 15px;
+}
+.mwd-footer-icon {
+  font-size: .5em;
+  display: flex;
+  padding: 1%;
+  margin: auto;
+}
+
+.footer-nav{
+  display: flex;
+  padding: 1%;
+}
+
+.mwd-li-footer-nav {
+  padding: 5px;
+  margin: auto;
+}
+
+.mwd-li-footer-nav  a{
+  color: #fff;
+  text-decoration: underline;
+}
+/* $ ===== End Footer/Nav ===== */
 
 /* @ ===== Start Nav ===== */
 a, li {
@@ -30,23 +58,26 @@ a, li {
 }
 
 .mwd-icon-bars {
-  background-image: url('./images/icons8-menu-24.png');
+  background-image: url('./images/circled.png');
   background-repeat: no-repeat;
   display: list-item;
-  height: auto;
-  width: auto;
+  list-style: none;
+  height: 36px;
+  width: 36px;
   transition: .9s;
+  margin: 2%;
+  color: #fff;
 }
 
 .side-nav {
-  background-image: linear-gradient(to right, #666699, #fff);
+  background-image: linear-gradient(to right, #111, #fff);
   border-radius: 5px;
+  opacity: .5;
   position: fixed;
   top: 0;
   left: 0;
   margin: 1%;
-  height: 100px;
-  width: 0;
+  height: 14em;
   z-index: 1;
   overflow-x: hidden;
   transition: .7s;
@@ -81,6 +112,13 @@ a, li {
 /*& ===== Start Parallax ===== */
 #parallax0 {
   background-image: url('./images/brandon-morgan-3qucB7U2l7I-unsplash.jpg');
+}
+
+#parallax1 {
+  background-image: url('./images/alex-perez-pEgsWN0kwbQ-unsplash.jpg')
+}
+
+#parallax0, #parallax1 {
   height: 100px;
   background-attachment: fixed;
   background-position: center;
@@ -118,12 +156,14 @@ a, li {
 .mwd-icon {
   padding: 5px;
   margin: auto;
+  width: 200px;
+  height: 200px;;
 }
 
-.mwd-html-icon {
-  background-image: url('/images/html.png');
+.mwd-html-icon, .mwd-css-icon, .mwd-dynamic-icon {
+  width: 100%;
+  height: 100%;
 }
-
 .mwd-card-p {
   padding: 5px;
   margin: auto;
@@ -134,7 +174,6 @@ a, li {
   text-align: justify;
   font-size: 12px;
 }
-
 /* % ===== End Cards ===== */
 /* $ ===== End Globals =====  */
 

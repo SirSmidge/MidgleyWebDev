@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
+  <head lang="en"5
     <meta charset="UTF-8">
     <title>Midgley Web Development</title>
     <link rel='stylesheet' href='./style.css'>
@@ -14,16 +14,20 @@
         <li class='mwd-li-nav'><a href=''>Projects</a></li>
         <li class='mwd-li-nav'><a href=''>Contact</a></li>
         <li class='mwd-li-nav'><a href=''>Blog</a></li>
+        <li class='mwd-li-nav'><a href=''>Credit</a></li>
       </div>
       <section id='contentBody'>
         <header id='header'>
-          <h1 id='logo'>Midgley Web Development</h1>
+          <h1 class='logo'>Midgley Web Development</h1>
         </header>
+        <div id='parallax1'></div>
         <div class='row'>
           <div class='third'>
             <div class='card cardContainer'>
               <h3 class='mwd-h3'>HTML</h3>
-              <div class='mwd-icon mwd-html-icon'></div>
+              <div class='mwd-icon'>
+                <img class='mwd-html-icon' alt='computer icon' src='./images/html.jpg'>
+              </div>
               <div class='mwd-card-caption'>
                 Icons made by 
                 <a href="https://www.flaticon.com/authors/freepik"
@@ -37,7 +41,9 @@
           <div class='third'>
             <div class='card cardContainer'>
               <h3 class='mwd-h3'>CSS</h3>
-              <i class='fa fa-icon cssIcon'></i>
+              <div class='mwd-icon'>
+                <img class='mwd-css-icon' alt='css icon' src='/images/css-3.jpg'>
+              </div>
               <div class='mwd-card-caption'>
                 Icons made by 
                 <a href="https://www.flaticon.com/authors/pixel-perfect"
@@ -51,7 +57,9 @@
           <div class='third'>
             <div class='card cardContainer'>
               <h3 class='mwd-h3'>Javascript</h3>
-              <i class='fa fa-icon dynamicIcon'></i>
+              <div class='mwd-icon'>
+                <img class='mwd-dynamic-icon' alt='dynamic icon' src='./images//responsive.png'>
+              </div>
               <div class='mwd-card-caption'>
                 Icons made by 
                 <a href="https://www.flaticon.com/authors/freepik"
@@ -62,23 +70,28 @@
               <p class='mwd-card-p'>All my sites are build mobile first. Allowing high quality control of scale and dynamic appearance.</p>
             </div>
           </div>
-          <div id='parallax0' style="position:unset"></div>
-          <div class='row'>
-            <div id='contact'>
-              
-            </div>
+        </div>
+        <div id='parallax0'></div>
+        <div class='row'>
+          <div id='contact'>
+
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
     <footer class='mwd-footer'>
-      <i class='mwd-footer-icon icon'></i>
-      <nav class='footer-nav'>
-        <li class='mwd-li-nav'><a href=''>Projects</a></li>
-        <li class='mwd-li-nav'><a href=''>Contact</a></li>
-        <li class='mwd-li-nav'><a href=''>Blog</a></li>
-      </nav>
-      Photo by Brandon Morgan on Unsplash
+      <div class='mwd-footer-icon'>
+        <h1 class='logo'>Midgley Web Development</h1>
+      </div>
+      <div class='footer-nav'>
+        <li class='mwd-li-footer-nav'><a href=''>Projects</a></li>
+        <li class='mwd-li-footer-nav'><a href=''>Contact</a></li>
+        <li class='mwd-li-footer-nav'><a href=''>Blog</a></li>
+        <li class='mwd-li-footer-nav'><a href=''>Credit</a></li>
+      </div>
+      <!-- Photo by Brandon Morgan on Unsplash #parallax0
+      Photo by Alex Perez on Unsplash #parallax1 -->
+      <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div> -->
     </footer>
 
     <script src='./index.js'></script>

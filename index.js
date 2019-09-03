@@ -3,8 +3,8 @@ let bodyStyle = document.getElementById('contentBody');
 let burgerStyle = document.getElementById('burger'); 
 
 openBtn = () => {
-  navStyle.style.width = '150px';
-  bodyStyle.style.marginTop = '105px';
+  navStyle.style.width = '95vw';
+  bodyStyle.style.marginTop = '14em';
   burgerStyle.style.display = 'none';
 }
 
