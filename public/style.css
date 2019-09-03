@@ -28,6 +28,7 @@ body {
 .mwd-footer {
   padding: 15px;
 }
+
 .mwd-footer-icon {
   font-size: .5em;
   display: flex;
@@ -70,12 +71,13 @@ a, li {
 }
 
 .side-nav {
-  background-image: linear-gradient(to right, #111, #fff);
+  background-image: linear-gradient(to right, #111, rgb(89, 185, 230));
   border-radius: 5px;
   opacity: .5;
   position: fixed;
   top: 0;
   left: 0;
+  width: 0;
   margin: 1%;
   height: 14em;
   z-index: 1;
