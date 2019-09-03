@@ -191,6 +191,14 @@ a, li {
   .row {
     display: flex;
   }
+
+  .third {
+    margin: auto;
+  }
+
+  #contentBody {
+    margin-top: -35px;
+  }
 }
 
 /* # ===== End Media Breaks ===== */
