@@ -187,4 +187,10 @@ a, li {
   }
 }
 
+@media (min-width: 731px){
+  .row {
+    display: flex;
+  }
+}
+
 /* # ===== End Media Breaks ===== */
