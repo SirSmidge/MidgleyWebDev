@@ -1,0 +1,54 @@
+
+body{
+  background-image: linear-gradient(to bottom, floralwhite, rgb(89, 185, 230));
+  background-repeat: no-repeat;
+}
+
+
+.side-nav{
+  background-image: linear-gradient(to right, rgb(89, 185, 230), floralwhite);
+  opacity: 1;
+}
+
+.logo, a {
+  color: #111;
+}
+
+.grid-container {
+  display: grid;
+  background-color: floralwhite;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.grid-item {
+  background-color: aliceblue;
+  border: 1px solid #111;
+  border-radius: 5px;
+  padding: 4%;
+  margin: 2%;
+  text-align: center
+}
+
+#git-link {
+  width: 350px;
+  padding: 1%;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+@media (min-width: 405px) {
+  .grid-container {
+    grid-template-columns: none;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+@media (min-width: 731px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}

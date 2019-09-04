@@ -2,6 +2,7 @@
 body {
   background-color: #111;
   padding: 0px;
+  min-height: 100vh;
   margin: auto;
 }
 
@@ -35,21 +36,31 @@ a, li {
 /* $ ===== Start Footer/Nav ===== */
 .mwd-footer {
   padding: 15px;
+  width: 350px;
+  margin: auto;
+}
+
+.mwd-footer-icon h1 {
+  font-size: 18px;
+  width: 275px;
+  text-align: center;
 }
 
 .mwd-footer-icon {
-  font-size: .5em;
-  width: 250px;
   padding: 1%;
+  width: 300px;
   margin: auto;
 }
 
 .footer-nav {
   display: flex;
   padding: 1%;
+  margin: auto;
+  text-align: center;
 }
 
 .mwd-li-footer-nav {
+  width: 300px;
   padding: 5px;
   margin: auto;
 }
@@ -202,5 +213,4 @@ a, li {
     margin-top: -35px;
   }
 }
-
 /* # ===== End Media Breaks ===== */
