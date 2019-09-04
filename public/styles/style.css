@@ -6,15 +6,29 @@ body {
 }
 
 #contentBody {
+  padding: 0;
+  margin: auto;
   transition: 1s;
 }
 
+.dynamic-body {
+  width: 90%;
+  padding: 0;
+  margin: auto;
+}
+
+a, li {
+  text-decoration: none;
+  list-style: none; 
+}
+
 /* * ===== Start Logo ===== */
-.logo a{
+.logo, a {
   padding: 5px;
+  width: 300px;
   color: #fff;
+  margin: auto;
   text-decoration: underline;
-  display: table;
 }
 /* * ===== End Logo ===== */
 
@@ -25,12 +39,12 @@ body {
 
 .mwd-footer-icon {
   font-size: .5em;
-  display: flex;
+  width: 250px;
   padding: 1%;
   margin: auto;
 }
 
-.footer-nav{
+.footer-nav {
   display: flex;
   padding: 1%;
 }
@@ -47,9 +61,8 @@ body {
 /* $ ===== End Footer/Nav ===== */
 
 /* @ ===== Start Nav ===== */
-a, li {
-  text-decoration: none;
-  list-style: none;
+.mwd-li-nav > a:hover {
+  color: aqua;
 }
 
 .mwd-icon-bars {
@@ -66,20 +79,20 @@ a, li {
 
 .side-nav {
   background-image: linear-gradient(to right, #111, rgb(89, 185, 230));
-  border-radius: 5px;
   opacity: .5;
+  border-radius: 5px;
   position: fixed;
   top: 0;
   left: 0;
   width: 0;
   margin: 1%;
-  height: 14em;
+  height: 14.2em;
   z-index: 1;
   overflow: hidden;
   transition: .7s;
 }
 
-.mwd-li-nav a {
+.mwd-li-nav {
   color: #fff;
   text-decoration: underline;
   margin: 2%;
@@ -87,9 +100,6 @@ a, li {
   display: block;
 }
 
-.mwd-li-nav a:hover {
-  color: aqua;
-}
 
 .mwd-nav-btn {
   right: 25px;
@@ -134,7 +144,6 @@ a, li {
   height: 350px;
   box-shadow: 1px 1px 1px 1px gray;
   border-radius: 5px;
-  /* padding: 5px; */
   margin: auto;
 }
 
@@ -175,9 +184,8 @@ a, li {
 
 /* # ===== Start Media Breaks ===== */
 @media (min-width: 599px){
-  #logo{
-    display: contents;
-    align-content: center;
+  .logo{
+    align-content: justify;
   }
 }
 

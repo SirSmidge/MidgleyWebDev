@@ -1,0 +1,31 @@
+body {
+  background-color: azure;
+}
+
+#comingSoon {
+  width: 230px;
+  padding: 0;
+  margin: auto;
+}
+
+.side-nav {
+  background-image: linear-gradient(to right, antiquewhite, azure);
+  opacity: 1;
+}
+
+.side-nav, a {
+  color: #111;
+}
+
+.mwd-li-footer-nav > a {
+  color: #111;
+}
+
+.mwd-li-footer-nav > a:hover {
+  color: purple;
+}
+
+li {
+  padding: 5px;
+  margin: auto;
+}

@@ -2,6 +2,24 @@ body {
   background-color: antiquewhite;
 }
 
-.logo a{
+.logo, a{
   color: #111;
+}
+
+.side-nav{
+  background-image: linear-gradient(to right, rgb(89, 185, 230), antiquewhite);
+  opacity: 1;
+}
+
+.mwd-li-footer-nav > a {
+  color: #111;
+}
+
+.mwd-li-footer-nav > a:hover {
+  color: aqua;
+}
+
+li {
+  padding: 5px;
+  margin: auto;
 }
