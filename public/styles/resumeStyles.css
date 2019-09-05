@@ -1,5 +1,13 @@
-#resume {
-  padding: 0px;
+body {
+  background-color: azure;
+}
+
+object {
   width: 100%;
+  padding: 0px;
   margin: auto;
+}
+
+.mwd-footer a {
+  color: #111;
 }
