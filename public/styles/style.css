@@ -12,6 +12,10 @@ body {
   transition: 1s;
 }
 
+#contactLine {
+  color: #fff;
+}
+
 .dynamic-body {
   width: 90%;
   padding: 0;
