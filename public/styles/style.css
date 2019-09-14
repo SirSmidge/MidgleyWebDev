@@ -17,7 +17,7 @@ body {
 }
 
 .dynamic-body {
-  width: 90%;
+  width: 90vw;
   padding: 0;
   margin: auto;
 }
@@ -194,23 +194,27 @@ a, li {
   text-align: justify;
   font-size: 12px;
 }
+
+.mwd-card-link {
+  color: #111;
+}
 /* % ===== End Cards ===== */
 /* $ ===== End Globals =====  */
 
 /* # ===== Start Media Breaks ===== */
-@media (min-width: 599px){
+@media only screen and (min-width: 599px){
   .logo{
     align-content: justify;
   }
 }
 
-@media (min-width: 731px){
+@media only screen and  (min-width: 731px){
   .row {
-    display: flex;
+    display: flex !important;
   }
 
   .third {
-    margin: auto;
+    margin: auto !important;
   }
 
   #contentBody {
