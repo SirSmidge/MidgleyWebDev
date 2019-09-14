@@ -202,22 +202,30 @@ a, li {
 /* $ ===== End Globals =====  */
 
 /* # ===== Start Media Breaks ===== */
-@media only screen and (min-width: 599px){
-  .logo{
+@media only screen and (min-width: 900px){
+  .logo {
+    width: 90%;
     align-content: justify;
+  }
+
+  .card {
+    width: 900px;
   }
 }
 
-@media only screen and  (min-width: 731px){
+@media only screen and  (min-width: 1400px){
   .row {
+    width: 98%;
     display: flex !important;
   }
 
   .third {
+    width: 98%;
     margin: auto !important;
   }
 
   #contentBody {
+    width: 100%;
     margin-top: -35px;
   }
 }
