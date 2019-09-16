@@ -40,14 +40,14 @@ body{
   text-align: center;
 }
 
-@media (min-width: 405px) {
+@media (min-width: 900px) {
   .grid-container {
     grid-template-columns: none;
     grid-template-rows: auto auto auto;
   }
 }
 
-@media (min-width: 731px) {
+@media (min-width: 1440px) {
   .grid-container {
     grid-template-columns: auto auto auto;
   }

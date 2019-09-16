@@ -1,6 +1,6 @@
 /* $ ===== Start Globals =====  */
 body {
-  background-color: #111;
+  background-color:#111314;
   padding: 0px;
   min-height: 100vh;
   margin: auto;
@@ -29,18 +29,19 @@ a, li {
 
 /* * ===== Start Logo ===== */
 .logo, a {
-  padding: 5px;
-  width: 300px;
+  padding: 2%;
+  width: 100%;
   color: #fff;
   margin: auto;
   text-decoration: underline;
+  text-align: center;
+  font-size: 175%;
 }
 /* * ===== End Logo ===== */
 
 /* $ ===== Start Footer/Nav ===== */
 .mwd-footer {
   padding: 15px;
-  width: 350px;
   margin: auto;
 }
 
@@ -85,8 +86,8 @@ a, li {
   background-repeat: no-repeat;
   display: list-item;
   list-style: none;
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 50px;
   transition: .9s;
   margin: 2%;
   color: #fff;
@@ -150,34 +151,43 @@ a, li {
 
 /* % ===== Start Cards ===== */
 .third {
-  padding: 5px;
+  padding: 4%;
 }
 
+/* .rowColumn {
+  display: inline-grid;
+  width: 99vw;
+  overflow: hidden;
+  margin: auto; 
+}*/
+
+
 .card {
-  background-color: #fff;
-  max-width: 300px;
-  height: 350px;
-  box-shadow: 1px 1px 1px 1px gray;
+  background-color: #fff6e3;
+  width: 100%;
+  height: 900px;
+  box-shadow: 1px 2px 2px 2px gray;
   border-radius: 5px;
   margin: auto;
 }
 
-.mwd-h3 {
+.mwd-h1 {
+  font-size: 400%;
   border-radius: 5px 5px 0px 0px;
-  background-color: black;
+  background-image: linear-gradient( #111314, #fff6e3);
   width: auto;
-  height: 25px;
+  height: auto;
   margin: auto;
   color: #fff;
   text-align: center;
-  padding: 5px;
+  padding: 15px;
 }
 
 .mwd-icon {
-  padding: 5px;
+  padding: 2%;
   margin: auto;
-  width: 200px;
-  height: 200px;;
+  width: 65%;
+  height: 65%;
 }
 
 .mwd-html-icon, .mwd-css-icon, .mwd-dynamic-icon {
@@ -185,8 +195,9 @@ a, li {
   height: 100%;
 }
 .mwd-card-p {
-  padding: 5px;
+  padding: 3%;
   margin: auto;
+  font-size: 200%;
 }
 
 .mwd-card-caption {
@@ -202,26 +213,25 @@ a, li {
 /* $ ===== End Globals =====  */
 
 /* # ===== Start Media Breaks ===== */
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 1400px){
   .logo {
-    width: 90%;
-    align-content: justify;
+    width: 98%;
   }
 
   .card {
-    width: 900px;
+    width: 98%;
   }
 }
 
-@media only screen and  (min-width: 1400px){
+@media only screen and  (min-width: 1440px){
   .row {
     width: 98%;
-    display: flex !important;
+    display: flex ;
   }
 
   .third {
     width: 98%;
-    margin: auto !important;
+    margin: auto;
   }
 
   #contentBody {
