@@ -213,7 +213,7 @@ a, li {
 /* $ ===== End Globals =====  */
 
 /* # ===== Start Media Breaks ===== */
-@media only screen and (min-width: 1400px){
+@media only screen and ( max-width: 1400px ) {
   .logo {
     width: 98%;
   }
@@ -223,20 +223,26 @@ a, li {
   }
 }
 
-@media only screen and  (min-width: 1440px){
-  .row {
-    width: 98%;
-    display: flex ;
+@media only screen and  ( min-width: 1440px ) {
+  .card {
+    width: 320px;
+    margin: auto;
+    height: auto;
+    padding: 5px;
+
+  }
+  .rowColumn {
+    display: flex;
   }
 
-  .third {
-    width: 98%;
+  /* .third {
     margin: auto;
-  }
+  } */
 
   #contentBody {
     width: 100%;
     margin-top: -35px;
+    overflow: hidden;
   }
 }
 /* # ===== End Media Breaks ===== */
